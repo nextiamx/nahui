@@ -1,3 +1,4 @@
+"use strict";
 ;
 function f(key) {
     return function (row) { return row[key]; };
@@ -79,3 +80,4 @@ function updateTable(selection) {
         }
     });
 }
+exports.updateTable = updateTable;

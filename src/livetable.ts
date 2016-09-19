@@ -1,7 +1,6 @@
 
 declare var d3: any;
 
-
 interface TableColumnConfig {
     name : string,
     value?(x) : any,
@@ -109,3 +108,7 @@ function updateTable (selection) {
         }
     });
 }
+
+
+
+export {updateTable};
